@@ -1,0 +1,117 @@
+
+.content {
+        font: normal 10px Arial, Helvetica, sans-serif;
+        color: white;
+        line-height: 100%;
+        margin-top: 2px;        /* space before title of first article */
+        overflow: hidden;
+        display: -khtml-box;
+        -khtml-box-orient: vertical;
+        -apple-line-clamp: 100%;    
+}
+
+.content > div {
+        overflow: hidden;
+        position: relative;	
+}
+
+.content .articlehead {
+        position: relative;
+        color: white;
+        font: bold 12px Arial, Helvetica, sans-serif;
+        letter-spacing: 0.07em;
+        white-space: nowrap;
+        display: -khtml-box;
+        -khtml-box-orient: horizontal;
+        -khtml-box-align: baseline;
+        text-decoration: none;
+        margin-bottom: 2px;
+}
+
+.content .subject {
+        border-bottom: 2px solid transparent;
+        -khtml-box-flex: 60;
+}
+
+.content a.articlehead[href] > .subject:hover { /* a.articlehead has no href if there's no permalink */
+        xxxborder-bottom: 2px solid #888;
+}
+
+.author, .date {
+	color: rgb(177,177,177);
+	font-size: 85%;
+        letter-spacing: 0.07em;
+}
+
+.author, .subject {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: intrinsic;
+    width: 0px;
+    min-width: 0px;
+    margin-right: 1em;
+}
+
+.author {
+  -khtml-box-flex: 40;
+}
+
+.content .articlecontent {
+	background-color: #eee;
+}
+
+.articlebody {
+	-khtml-margin-top-collapse:discard;
+}
+
+.content .articlefooter {
+	xxborder-bottom: 1px solid #CCCCCC;
+	position: absolute;
+	bottom: 0px;
+	left: 8px;
+	right: 8px;	
+	height: 12px;
+	padding-bottom: 0px;
+}
+
+a.articlelink {
+	text-decoration: underline;
+	white-space: nowrap;
+}
+
+a.articlelink:link,
+a.articlelink:visited {             /* SL says "Read More..." links shouldn't change color once visited */
+	color: rgb(34,98,245);
+}
+
+div.article {
+        width: 100%; 
+        display: block; 
+        margin: 1px -8px 3px -8px;
+        padding:  1px 8px 1px 8px;
+}
+
+.group {
+        padding-top: 8px;
+        padding-left: 1px;
+        padding-bottom: 11px;
+        background: url(../Images/Separator.tif) no-repeat center top;
+        line-height: 130%;
+}
+
+.grouptitle {
+        color: black;
+        font-weight: bold;
+        line-height: 180%;
+}
+
+#sliderdiv {
+        margin-top: -2px;
+        margin-left: -3px;
+        margin-right: -10px;
+        margin-bottom: 4px;
+}
+
+#sliderdiv input {
+        max-width: 83px;
+}

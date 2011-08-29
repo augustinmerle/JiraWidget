@@ -1,0 +1,527 @@
+body {
+	margin: 0px;
+}
+
+#frontimg {
+	position: absolute;
+	display: block;
+}
+
+.info {
+	position: absolute;
+	right: 20px;
+	bottom: 15px;
+	width: 13px;
+	height: 13px;
+}
+
+#back {
+	color: white;
+	font-size: 10pt;
+	top: 1px;
+	display: block;
+}
+
+#backimg {
+	position: absolute;
+	display: block;
+	top: auto;
+	left: auto;
+}
+
+#apple-initvalues {
+	display: none;
+}
+
+#done {
+	position: absolute;
+	right: 18px;
+	bottom: 22px;
+	top: 269px;
+	left: 238px;
+}
+
+#feedtitle {
+	position: absolute;
+	color: white;
+	font: normal normal normal 18pt/normal Helvetica Neue;
+	font-weight: bold;
+	left: 22px;
+	top: 9px;
+	font-family: Arial;
+}
+
+#slidergroup {
+	position: absolute;
+	background-image: none !important;
+	background-repeat: initial !important;
+	background-attachment: initial !important;
+	background-position-x: initial !important;
+	background-position-y: initial !important;
+	background-color: initial !important;
+	padding-top: 5px !important;
+	padding-bottom: 0px !important;
+	top: 229px;
+	left: 119px;
+}
+
+#feed {
+	position: absolute;
+	left: 0px;
+	top: 22px;
+	width: 372px;
+	font: normal normal normal 18px/normal Lucida Grande;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+
+#feed-bottom {
+	position: absolute;
+	left: 65px;
+	top: 34px;
+	font: normal normal normal 16px/normal Lucida Grande;
+	color: white;
+	text-transform: uppercase;
+	text-shadow: rgb(0, 52, 129) 0pt 1pt 1pt;
+}
+
+#contentarea {
+	display: block;
+	padding-right: 18px;
+	padding-left: 11px;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	position: absolute;
+}
+
+#scrollbar {
+	position: absolute;
+	right: 6px;
+	top: 6px;
+	bottom: 6px;
+}
+
+.backDevelopedWith {
+	position: absolute;
+	bottom: 22px;
+	left: 95px;
+	top: 172px;
+}
+
+#front {
+	display: none;
+}
+
+.group {
+	padding-top: 8px;
+	padding-left: 1px;
+	padding-bottom: 11px;
+	background-image: url(../Images/Separator.tif);
+	background-repeat: no-repeat;
+	background-attachment: initial;
+	background-position-x: 50%;
+	background-position-y: 0%;
+	background-color: initial;
+	line-height: 130%;
+}
+
+.grouptitle {
+	line-height: 180%;
+	text-align: center;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 13px;
+	top: 6px;
+	color: rgb(255, 255, 255);
+}
+
+#sliderdiv {
+	margin-top: -2px;
+	margin-left: -3px;
+	margin-right: -10px;
+	margin-bottom: 4px;
+	width: 125px;
+}
+
+#sliderdiv input {
+	max-width: 83px;
+}
+
+#frontimg1 {
+	width: 325px;
+	height: 250px;
+	top: 0px;
+	position: absolute;
+}
+
+#frontimgfrontimg1 {
+	position: absolute;
+}
+
+#frontimgfrontimg1 {
+	top: 0px;
+}
+
+#frontimgfrontimg1 {
+	height: 250px;
+}
+
+#frontimgfrontimg1 {
+	width: 325px;
+}
+
+#frontimgsliderdiv input {
+	max-width: 83px;
+}
+
+#frontimgsliderdiv {
+	margin-top: -2px;
+	margin-left: -3px;
+	margin-right: -10px;
+	margin-bottom: 4px;
+	width: 125px;
+}
+
+#frontimgfront {
+	display: block;
+}
+
+#frontimgscrollbar {
+	position: absolute;
+	right: 6px;
+	top: 6px;
+	bottom: 6px;
+}
+
+#frontimgcontentarea {
+	display: block;
+	padding-right: 36px;
+	padding-left: 11px;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	position: absolute;
+}
+
+#frontimgcontainer {
+	position: absolute;
+	top: 50px;
+	left: 11px;
+	right: 11px;
+	bottom: 31px;
+	overflow: hidden;
+}
+
+#frontimgfeed-bottom {
+	position: absolute;
+	left: 65px;
+	top: 34px;
+	font: normal normal normal 16px/normal Lucida Grande;
+	color: white;
+	text-transform: uppercase;
+	text-shadow: rgb(0, 52, 129) 0pt 1pt 1pt;
+}
+
+#frontimgfeed {
+	position: absolute;
+	left: 0px;
+	top: 22px;
+	width: 372px;
+	font: normal normal normal 18px/normal Lucida Grande;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+
+#frontimgslidergroup {
+	position: absolute;
+	background-image: none !important;
+	background-repeat: initial !important;
+	background-attachment: initial !important;
+	background-position-x: initial !important;
+	background-position-y: initial !important;
+	background-color: initial !important;
+	padding-top: 5px !important;
+	padding-bottom: 0px !important;
+	left: 103px;
+	top: 82px;
+}
+
+#frontimgfeedtitle {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	color: white;
+	font: normal normal normal 18pt/normal Helvetica Neue;
+	font-weight: bold;
+}
+
+#frontimgdone {
+	position: absolute;
+	right: 18px;
+	bottom: 22px;
+}
+
+#frontimgapple-initvalues {
+	display: none;
+}
+
+#frontimgbackimg {
+	position: absolute;
+	display: block;
+	top: auto;
+	left: auto;
+}
+
+#frontimgback {
+	color: white;
+	font-size: 10pt;
+	display: none;
+}
+
+#frontimgfrontimg {
+	position: absolute;
+	display: block;
+}
+
+#backimg {
+	width: 325px;
+	height: 252px;
+}
+
+.description {
+	position: absolute;
+	top: 33px;
+	font-family: Arial;
+	left: 22px;
+	font-weight: bold;
+	color: rgb(255, 204, 102);
+	font-size: 10px;
+}
+
+#container {
+	position: absolute;
+	right: 11px;
+	bottom: 31px;
+	overflow: hidden;
+	top: 50px;
+	left: 11px;
+	width: 273px;
+	height: 234px;
+}
+
+#info {
+	top: 286px;
+	left: 270px;
+}
+
+#done {
+	position: absolute;
+	right: 18px;
+	bottom: 22px;
+}
+
+#text {
+	position: absolute;
+	font-family: Helvetica Neue;
+	font-size: 10pt;
+	top: 80px;
+	left: 26px;
+	color: rgb(255, 255, 255);
+}
+
+#text1 {
+	position: absolute;
+	font-family: Helvetica Neue;
+	font-size: 10pt;
+	top: 38px;
+	left: 26px;
+	color: rgb(255, 255, 255);
+}
+
+#text2 {
+	position: absolute;
+	font-family: Helvetica Neue;
+	font-size: 10pt;
+	top: 123px;
+	left: 26px;
+	color: rgb(255, 255, 255);
+}
+
+#text3 {
+	position: absolute;
+	font-family: Helvetica Neue;
+	font-size: 10pt;
+	top: 163px;
+	left: 26px;
+	color: rgb(255, 255, 255);
+}
+
+#jiraurlpref {
+	position: absolute;
+	color: black;
+	font-family: Helvetica Neue;
+	font-size: 10pt;
+	left: 117px;
+	top: 36px;
+}
+
+#jiraurlprefpref {
+	position: absolute;
+	color: black;
+	font-family: Helvetica Neue;
+	font-size: 10pt;
+	left: 120px;
+	top: 36px;
+}
+
+#jirafilteridpref {
+	position: absolute;
+	color: black;
+	font-family: Helvetica Neue;
+	font-size: 10pt;
+	left: 117px;
+	top: 78px;
+}
+
+#jirafilteridprefpref {
+	position: absolute;
+	color: black;
+	font-family: Helvetica Neue;
+	font-size: 10pt;
+	left: 122px;
+	top: 88px;
+}
+
+#jirausernamepref {
+	position: absolute;
+	color: black;
+	font-family: Helvetica Neue;
+	font-size: 10pt;
+	left: 117px;
+	top: 121px;
+}
+
+#jirausernameprefpref {
+	position: absolute;
+	color: black;
+	font-family: Helvetica Neue;
+	font-size: 10pt;
+	left: 126px;
+	top: 129px;
+}
+
+#jirapaswordpref {
+	position: absolute;
+	color: black;
+	font-family: Helvetica Neue;
+	font-size: 10pt;
+	left: 117px;
+	top: 161px;
+}
+
+#jirapaswordprefpref {
+	position: absolute;
+	color: black;
+	font-family: Helvetica Neue;
+	font-size: 10pt;
+	left: 128px;
+	top: 168px;
+}
+
+#text4 {
+	position: absolute;
+	font-family: Helvetica Neue;
+	color: rgb(255, 255, 255);
+	font-size: 11px;
+	left: 119px;
+	top: 62px;
+}
+
+#text45 {
+	position: absolute;
+	font-family: Helvetica Neue;
+	color: rgb(255, 255, 255);
+	font-size: 11px;
+	left: 119px;
+	top: 105px;
+}
+
+#text456 {
+	position: absolute;
+	font-family: Helvetica Neue;
+	color: rgb(255, 255, 255);
+	font-size: 11px;
+	top: 146px;
+	left: 119px;
+}
+
+#text37 {
+	position: absolute;
+	font-family: Helvetica Neue;
+	font-size: 10pt;
+	top: 199px;
+	left: 26px;
+	color: rgb(255, 255, 255);
+}
+
+#text8 {
+	position: absolute;
+	font-family: Helvetica Neue;
+	font-size: 10pt;
+	height: 18px;
+	top: 199px;
+	color: rgb(255, 255, 255);
+	left: 164px;
+}
+
+#jirarefreshpref {
+	position: absolute;
+	color: black;
+	font-family: Helvetica Neue;
+	font-size: 10pt;
+	top: 197px;
+	width: 35px;
+	left: 119px;
+}
+
+#text5 {
+	position: absolute;
+	font-family: Arial;
+	color: rgb(255, 255, 255);
+	font-size: 10px;
+	left: 26px;
+	top: 274px;
+}
+
+#text6 {
+	position: absolute;
+	font-family: Helvetica Neue;
+	font-size: 10pt;
+	color: rgb(255, 255, 255);
+	left: 26px;
+	top: 233px;
+}
+
+#slider {
+	top: 4px;
+}
+
+#infoarea {
+	position: absolute;
+	font-size: 9pt;
+	font-family: Arial;
+	text-align: right;
+	color: rgb(255, 255, 255);
+	width: 193px;
+	left: 90px;
+	top: 16px;
+	height: 17px;
+}
+

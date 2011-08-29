@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style type="text/css" title="AppleStyle">
+        @import "JiraWidget.css";
+		@import "SafariStyle.css";
+    </style>
+    <script type="text/javascript" src="AppleClasses/AppleAnimator.js" charset="utf-8"></script>
+    <script type="text/javascript" src="AppleClasses/AppleButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="AppleClasses/AppleInfoButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="AppleClasses/AppleScrollbar.js" charset="utf-8"></script>
+    <script type="text/javascript" src="AppleClasses/AppleScrollArea.js" charset="utf-8"></script>
+    <script type="text/javascript" src="AppleClasses/AppleSlider.js" charset="utf-8"></script>
+    <script type="text/javascript" src="AppleClasses/ApplePrivate.js" charset="utf-8"></script>
+    <script type="text/javascript" src="JiraWidget.js" charset="utf-8"></script>
+    <script type="text/javascript" src="localizedStrings.js" charset="utf-8"></script>
+	<script type="text/javascript" src="SoapSpoofer.js" charset="utf-8"></script>
+	<script type="text/javascript" src="jirasoap.js" charset="utf-8"></script>
+</head>
+<body onload="load();">
+	<div id="front">
+		
+		<img src="Images/widget-background1.png" style="width: 294px; height: 315px; position: absolute; top: 0px; left: 7px; " id="frontimg">
+	<div class="info" id="info" apple-default-image-visibility="hidden" onclick="event.stopPropagation(); event.preventDefault();">
+		<script type="text/javascript">AppleCreateInfoButton('info', 'front', 'white', 'black', 'showBack');</script>
+	</div>
+	<div id="feedtitle" onmouseup="populateIssueList();">JIRA</div>
+		
+		
+	<span class="description">Because you've got issues</span>
+	<div id="container">
+			<div id="contentarea" style="height: 234px; overflow: hidden; ">
+				<div class="content" id="content"></div>
+			</div>
+	<div id="scrollbar" style="top: 3px; height: 228px; left: 253px; width: 19px; -apple-dashboard-region: none; "></div>
+			
+			<script type="text/javascript">var scrollArea = AppleCreateScrollArea('contentarea', 'scrollbar');</script> 
+		</div>
+	
+	
+	
+	<div id="infoarea"></div>
+	</div>
+    <div id="back">
+	    <img id="backImg" src="Images/back.png" alt="">
+	        
+	    <div id="text1">Jira URL:</div>
+    <input type="text" value="http://jira.yourcompany.com" id="jiraurlpref">
+    <div id="text4">eg. http://jira.atlassian.com</div>
+    <div id="text">Jira Filter Id:</div>
+    <input type="text" value="" id="jirafilteridpref">
+    <div id="text45">eg. 10010 (look in URL of filter)</div>
+    <div id="text2">User Name:</div>
+    <input type="text" value="" id="jirausernamepref">
+    <div id="text456">eg. joe.bloggs</div>
+    <div id="text3">Password:</div>
+    <input type="password" value="" id="jirapaswordpref" class="pass">
+    <div class="grouptitle" apple-default-image-visibility="visible">Article Length</div>
+    <div class="group" id="slidergroup">
+	        
+            <div id="sliderdiv">
+                <img src="Images/Smaller.tif" width="16" height="16" onclick="scaleToMin()" style="top: 5px; ">
+                <input id="slider" type="range" min="0" value="100" max="100" oninput="scaleArticles(this.value)">
+                <img src="Images/Bigger.tif" width="16" height="16" onclick="scaleToMax()" style="top: 5px; ">
+            </div>
+        </div>
+
+    <div id="done">
+
+    	<script type="text/javascript">AppleCreateGlassButton('done', 'Done', true, 'showFront');</script>
+
+    </div>
+    
+    <div id="text37">Refresh Every:</div>
+    <input type="text" value="10" id="jirarefreshpref">
+    <div id="text8">mins</div>
+    <div id="text5">Powered by Shine Technologies</div>
+    <div id="text6">Article Length:</div>
+    </div>
+	<div id="apple-initValues">
+		<div id="apple-init-feedURL"></div>
+	</div>
+</body>
+</html>
