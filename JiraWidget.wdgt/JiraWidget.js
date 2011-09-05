@@ -338,8 +338,7 @@ function createRow (item)
 	articlehead.appendChild(spacer);
 	
 	if (item.link != null) {
-		articlehead.setAttribute('the_link', item.link);
-		articlehead.setAttribute('onclick', 'clickOnTitle(event, this);');
+		articlehead.setAttribute('onclick', "clickOnTitle(event, '" + item.link + "');");
 		articlehead.setAttribute('href', '#');
 		articlehead.setAttribute('title', item.description );
 	}
@@ -443,10 +442,10 @@ function setElementText(elementName, elementValue)
 /**
 * Open the link in a browser, not the widget
 */
-function clickOnTitle(event, div)
+function clickOnTitle(event, link)
 {
 	if (window.widget) {
-		widget.openURL(div.the_link);
+		widget.openURL(link);
 	}
 }
 
@@ -581,3 +580,4 @@ function removePreferences()
 		widget.setPreferenceForKey(null, "scale");
 	}
 }
+
