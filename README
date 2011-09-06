@@ -1,1 +1,34 @@
-Shine's Jira OSX Widget
+Jira OSX Widget by Shine Technologies - V1.05
+=============================================
+
+Description/Features
+
+The Dashboard JIRA Widget enables you to keep track of issues from your very own OSX desktop.  Its main feature is to allow you to watch one or more Jira filters from your dashboard and then link directly into the filter or a specific issue.
+
+Installation
+============
+
+This widget requires version 3.4.3+ of JIRA RPC Plugin.
+In order for the JIRA widget to work you must be running OS X with Dashboard and enable the XML-RPC plugin version 3.4.3+.
+
+Enable XML-RPC Plugin in Jira
+=============================
+
+There is a great page on the XML-RPC Plugin. It will show you what you need to do to enable it:
+
+http://confluence.atlassian.com/display/JIRADEV/JIRA+XML-RPC+Overview
+
+Create a global filter
+======================
+
+This step is optional you can use any filter that you want to view issues from!
+
+But if you would like to know how to create a global filter see the following documentation.
+http://www.atlassian.com/software/jira/docs/latest/permissions.html#global_permissions
+
+Using the JIRA Widget
+=====================
+
+Simply download the JIRA Widget and load it up. The first time you run it you will see a message telling you to configure the preferences. This is so you can connect to your own JIRA installation.
+
+Mac OS X 10.4 Tiger or later is required. If you're using Safari, click the download link. When the widget download is complete, Show Dashboard, click the Plus sign to display the Widget Bar and click the widget's icon in the Widget Bar to open it. If you're using a browser other than Safari, click the download link. When the widget download is complete, unarchive it and place it in /Library/Widgets/ in your home folder. Show Dashboard, click the Plus sign to display the Widget Bar and click the widget's icon in the Widget Bar to open it.
